@@ -7,6 +7,14 @@ public class Days {
         System.out.print("Friday");
         System.out.println("Saturday");
         System.out.println("Sunday");
+        int num = -0;
+        if (num > 0) {
+            System.out.println("Positive");
+        } else if (num < 0) {
+            System.out.println("Negative");
+        } else {
+            System.out.println("Zero");
+        }
     }
 
 }
