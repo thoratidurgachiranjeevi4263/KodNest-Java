@@ -3,4 +3,7 @@ public class Mobile {
     Mobile() {
       System.out.println("Mobile Has to Install Os");
     }
+    void checkMobileCharger(Charger c) {
+      System.out.println("Checking Mobile Charger!");
+    }
 }
